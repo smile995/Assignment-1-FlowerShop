@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato;
+}
+/* Header section related style are below */
+header{
+    width: 1920px;
+    height: 100vh;
+    /* height: 850px; */
+    background-color: #e5547311;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+/* Main section related style are below */
+
+/* Footer section related style are below */
+
+footer{
+    width: 100%;
+    background-color: #111010;;
+    height: 449px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 15px;
+    
+    
+    
+    
+
+}
+#Copy-right { 
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+.primary-color{
+    color: #E55473;
+}
+.footer-tittle{
+font-size: 48px;
+font-weight: 800;
+}
