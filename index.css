@@ -118,19 +118,53 @@
 .image-resize {
   width: 250 px;
   height: 300px;
-box-shadow: 3px 4px 5px;
+  box-shadow: 1px 3px 5px;
+}
+
+.btn {
+  padding-top: 30px;
+}
+
+#button {
+  width: 150px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  color:#FFFFFF;
+  border: 0px;
+  border-radius: 8px;
+  background: #e55473;
+}
+
+#mail {
+  border-radius: 8px;
+  background: #fff;
+  width: 650px;
+  height: 64px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  border: 0px;
+  margin-right: 20px;
+  padding-left: 20px;
 }
 /* Latest deal related style below */
-.latest-deal{
-    width: 80%;
-    background-image: url('Rectangle\ 9.png');
-    height: 60vh;
-    margin: auto;
-    background-position:top;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 60px;
+.latest-deal {
+  width: 80%;
+  background-image: url("Rectangle\ 9.png");
+  height: 60vh;
+  margin: auto;
+  background-position: top;
+  text-align: center;
+  margin-bottom: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* Footer section related style are below */
 
