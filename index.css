@@ -47,8 +47,81 @@
 .information {
   padding-top: 20px;
 }
+/* head section end */
 
-/* Main section related style are below */
+/* Main section started below */
+
+/* Our featured related styles are here */
+.our-feature {
+  text-align: center;
+  margin: 60px 0px 40px 0px;
+}
+.feature-tittle {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 25px;
+}
+.feature-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.tuplip {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.pink-tulip {
+  width: 350px;
+  height: 450px;
+  background-color: #a7216226;
+  border-radius: 200px 200px 0px 0px;
+  background-image: url("Flower/pngwing\ 6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+.group-tulip {
+  width: 350px;
+  height: 450px;
+  background-color: #0597a026;
+  border-radius: 200px 200px 0px 0px;
+  background-image: url("Flower/pngwing\ 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+.yellow-tulip {
+  width: 350px;
+  height: 450px;
+  background-color: #477d1126;
+  border-radius: 200px 200px 0px 0px;
+  background-image: url("Flower/pngwing\ 7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+.text {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 15px;
+}
+.pink {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
 /* Quality Related style here */
 .quality {
   display: flex;
@@ -130,7 +203,7 @@
   height: 64px;
   font-size: 20px;
   font-weight: 700;
-  color:#FFFFFF;
+  color: #ffffff;
   border: 0px;
   border-radius: 8px;
   background: #e55473;
@@ -166,7 +239,9 @@
   align-items: center;
   justify-content: center;
 }
-/* Footer section related style are below */
+
+/* main section end here */
+/* Footer section start below */
 
 footer {
   background-color: #111010;
@@ -195,3 +270,5 @@ footer {
 #footer-description {
   padding: 20px 0px;
 }
+
+/* Footer section end */
